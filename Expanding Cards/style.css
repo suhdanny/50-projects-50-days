@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Oswald, sans-serif, 'Times New Roman';
+    margin: 0;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 90vw; /* Set the width of the container 90% width of viewport */
+}
+
+.panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 25px;
+    cursor: pointer;
+    flex: 1;
+    margin: 10px;
+    transition: flex 0.7s ease-in; /* Transition the flex property - takes 0.7 seconds - starts slowly */ 
+    position: relative; /* Set parent to position relative */
+}
+
+.panel h3 {
+    color: white;
+    font-size: 24px;
+    position: absolute; /* Set child to position absolute */
+    bottom: 20px; /* Place h3 text 20px above relative to the bottom of the panel */
+    left: 20px; /* Place h3 text 20px left relative to the left of the panel */
+    margin: 0;
+    opacity: 0;
+}
+
+.panel.active {
+    flex: 5; /* If panel is active, then set flex-grow to 5 instead of 0.5*/
+}
+
+.panel.active h3 {
+    opacity: 1; /* If panel is active, show the text again by setting opacity to 1*/
+}
+
+
+@media (max-width: 480px) {
+    /* The effect below only takes place when the screen size is less than 480px*/
+    .container {
+        width: 100vw; /* Makes the container wider*/
+    }
+
+    .panel:nth-of-type(4),
+    .panel:nth-of-type(5) {
+        display: none; /* Do not display the 4th and 5th panel*/
+    }
+}
