@@ -28,7 +28,7 @@ body {
     cursor: pointer;
     flex: 1;
     margin: 10px;
-    transition: flex 0.7s ease-in; /* Transition the flex property - takes 0.7 seconds - starts slowly */ 
+    transition: flex 0.5s ease-in; /* Transition the flex property - takes 0.7 seconds - starts slowly */ 
     position: relative; /* Set parent to position relative */
 }
 
@@ -43,11 +43,12 @@ body {
 }
 
 .panel.active {
-    flex: 5; /* If panel is active, then set flex-grow to 5 instead of 0.5*/
+    flex: 6; /* If panel is active, then set flex-grow to 5 instead of 0.5*/
 }
 
 .panel.active h3 {
     opacity: 1; /* If panel is active, show the text again by setting opacity to 1*/
+    transition: opacity 0.3s ease-in 0.4s; /* property - takes 0.3 seconds - ease in - delay of 0.4s before taking effect*/
 }
 
 
