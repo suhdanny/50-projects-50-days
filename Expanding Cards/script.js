@@ -2,8 +2,8 @@ const panels = document.querySelectorAll('.panel'); // Puts all of the panels in
 
 panels.forEach(panel => {
     panel.addEventListener('click', () => {
-        removeActiveClass();
-        panel.classList.add('active');
+        removeActiveClass(); /* Remove all active class from the panel*/
+        panel.classList.add('active'); 
     })
 })
 
