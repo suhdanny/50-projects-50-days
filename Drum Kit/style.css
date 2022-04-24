@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Oswald, sans-serif, 'Times New Roman';
+    margin: 0;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("images/matthijs-smit-bRG2C0FAQEY-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.key {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: .3rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    width: 10rem;
+    height: 7rem;
+    padding: 1rem .5rem;
+    color: white;
+    font-size: 3rem;
+    background-color: black;
+}
+
+.sound {
+    color: darkorange;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
