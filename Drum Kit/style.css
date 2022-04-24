@@ -38,10 +38,16 @@ body {
     color: white;
     font-size: 3rem;
     background-color: black;
+    transition: all 0.07s;
 }
 
 .sound {
     color: darkorange;
     font-size: 1.2rem;
     letter-spacing: 0.1rem;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: darkorange;
 }
