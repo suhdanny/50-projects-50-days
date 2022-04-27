@@ -21,7 +21,7 @@ body {
     position: relative;
     margin-bottom: 30px;
     max-width: 100%;
-    width: 500px;
+    width: 350px;
 }
 
 .progress-container::before {
@@ -81,14 +81,10 @@ body {
 }
 
 .btn:active {
-    transform: scale(.98); /* Scaling down effect when buttons are clicked */
-}
-
-.btn:focus {
-    outline: 0;
+    transform: scale(.98); /* scaling down effect when buttons are clicked */
 }
 
 .btn:disabled {
     background-color: #e0e0e0;
-    cursor: not-allowed;
+    cursor: not-allowed; /* buttons disabled cannot be clicked */
 }
