@@ -8,3 +8,4 @@ Feel free to click the hyperlinks for the demo!
 3. [Progress Steps](https://flourishing-duckanoo-b2f5cc.netlify.app/)
 4. [Hidden Search Widget](https://dashing-hummingbird-80bec3.netlify.app/)
 5. [Scrolling Animation](https://admirable-alpaca-807bb6.netlify.app/)
+6. [Split Landing Page](https://taupe-donut-5b41d5.netlify.app/)
