@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: steelblue;
+    color: white;
+    font-family: Muli, sans-serif;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container a {
+    text-decoration: none; /* removes the underline of the hyperlink */
+    color: lightblue;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block; /* same as display: inline but you can change the size of the element */
+    width: 100%;
+    background-color: lightblue;
+    padding: 15px;
+    font-family: inherit;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:active {
+    transform: scale(0.98); /* when you click the button, it gets slightly smaller */
+}
+
+.text {
+    margin-top: 30px;
+}
+
+.form-control {
+    position: relative;
+    margin: 20px 0 40px; /* margin-top and margin-bottom is 20px and margin-right is 40px*/
+}
+
+.form-control input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    display: block; /* want the input and label to be on its own line (takes the entire width of form-control box */
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+}
+
+.form-control input:focus, .form-control input:valid {
+    outline: 0; /* no border when we click the input box */
+}
+
+.form-control label {
+    position: absolute; /* for the wave animation, each letter will have translateY upwards, with delay */
+    top: 15px;
+    left: 0;
+}
