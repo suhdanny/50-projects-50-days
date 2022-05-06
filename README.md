@@ -10,4 +10,4 @@ Feel free to click the hyperlinks for the demo!
 5. [Scrolling Animation](https://admirable-alpaca-807bb6.netlify.app/)
 6. [Split Landing Page](https://taupe-donut-5b41d5.netlify.app/)
 7. [Form Wave Animation](https://voluble-genie-547dd7.netlify.app/?)
-8. [Frequently Asked Questions] (https://stellar-cuchufli-334202.netlify.app/)
+8. [Frequently Asked Questions](https://stellar-cuchufli-334202.netlify.app/)
