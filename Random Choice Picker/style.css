@@ -43,7 +43,7 @@ h3 {
     border-radius: 15px;
     padding: 10px 20px;
     margin: 0 5px 10px 0; /* top right bottom left */
-    display: inline-block;
+    display: inline-block; /* choices can wrap */
 }
 
 /* chosen one has a different background */
