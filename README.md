@@ -12,3 +12,4 @@ Feel free to click the hyperlinks for the demo!
 7. [Form Wave Animation](https://voluble-genie-547dd7.netlify.app/?)
 8. [Frequently Asked Questions](https://stellar-cuchufli-334202.netlify.app/)
 9. [Random Choice Picker](https://radiant-salamander-95d84b.netlify.app/)
+10. [Animated Navigation](https://startling-kataifi-4a6734.netlify.app/)
