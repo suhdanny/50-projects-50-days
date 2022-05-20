@@ -46,7 +46,7 @@ function randomSelect() {
         }, 100)
     }, 100);
 
-    // interval goes on for times * 100ms then choose a random tag
+    // interval goes on for times * 100ms then choose a random tag (runs 30 times since interval is 100ms for each pick)
     setTimeout(() => {
         clearInterval(interval);
 
