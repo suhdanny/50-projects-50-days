@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.slider {
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slide:nth-child(1) {
+    background-image: url("images/david-marcu-78A265wPiO4-unsplash.jpg");
+}
+
+.slide:nth-child(2) {
+    background-image: url("images/jorge-vasconez-c4cWawGBFv8-unsplash.jpg");
+}
+
+.slide:nth-child(3) {
+    background-image: url("images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg");
+}
+
+.arrows {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrow {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    float: left;
+    box-shadow: -5px 5px 0 #eee;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.arrow:hover {
+    box-shadow: -5px 5px 0 black;
+}
+
+.arrow.left {
+    margin-left: 40px;
+    transform: rotate(45deg);
+}
+
+.arrow.right {
+    margin-right: 40px;
+    transform: rotate(-135deg);
+}
+
+.radios {
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: flex;
+    gap: 1em;
+}
+
+.radio {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 4px solid #eee;
+    background-color: transparent;
+}
+
+.radio.active {
+    background-color: #eee;
+}
