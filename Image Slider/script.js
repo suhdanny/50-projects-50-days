@@ -13,6 +13,15 @@ leftArrow.addEventListener('click', () => {
     moveBefore(currentSlideIndex);
 })
 
+radioButtons.forEach((radio, index) => {
+    radio.addEventListener('click', () => {
+        removeActiveSlide();
+        removeActiveRadio();
+        slides[index].classList.add('active');
+        radioButtons[index].classList.add('active');
+    })
+})
+
 function getCurrentSlideIndex() {
     let currentSlideIndex;
 
