@@ -14,3 +14,4 @@ Feel free to click the hyperlinks for the demo!
 9. [Random Choice Picker](https://radiant-salamander-95d84b.netlify.app/)
 10. [Animated Navigation](https://startling-kataifi-4a6734.netlify.app/)
 11. [Mobile Navigation Menu](https://splendorous-fox-ab2f54.netlify.app/#)
+12. [Image Slider](https://aquamarine-kulfi-51521b.netlify.app/)
