@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    cursor: pointer;
+}

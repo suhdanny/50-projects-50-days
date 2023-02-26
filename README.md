@@ -1,8 +1,5 @@
 # 50-projects-50-days
 
-Build and Learn. That is my motto. Each of these are mini projects that are aimed to sharpen my skills in HTML, CSS and JavaScript.
-Feel free to click the hyperlinks for the demo!
-
 1. [Expanding Cards](https://remarkable-moxie-024d04.netlify.app/)
 2. [Drum Kit](https://stellar-khapse-0146b3.netlify.app/)
 3. [Progress Steps](https://flourishing-duckanoo-b2f5cc.netlify.app/)
@@ -16,3 +13,4 @@ Feel free to click the hyperlinks for the demo!
 11. [Mobile Navigation Menu](https://splendorous-fox-ab2f54.netlify.app/#)
 12. [Image Slider](https://aquamarine-kulfi-51521b.netlify.app/)
 13. [Theme Clock](https://dancing-cascaron-ba9b1b.netlify.app/)
+14. [Hacker Effect](https://willowy-cupcake-4c7fbd.netlify.app/)
